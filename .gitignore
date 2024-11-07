@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+/bin/
+/build/
+/dist/
+
+# Go modules
+/go.sum
+/go.mod
+/vendor/
+
+# Go workspace file
+*.work
+
+# Output of the go coverage tool
+*.out
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and debug files
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS files
+.DS_Store
+
+# Node dependencies (if you have a frontend within the project folder)
+node_modules/
+
+# Environment files
+.env
+.env.*
+app.env
+
+# Fiber specific
+/tmp/
+.cache/
+
+# Coverage
+.coverage/
+testdata/
