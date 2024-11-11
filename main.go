@@ -56,6 +56,7 @@ func main() {
 	routes.CommentRoutes(app)
 	routes.FormulaIngredientsRoutes(app)
 	routes.IngredientRoutes(app)
+	routes.CategoryRoutes(app)
 
 	app.All("*", func(c *fiber.Ctx) error {
 		path := c.Path()
